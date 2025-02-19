@@ -2,6 +2,10 @@
 
 Instantly translate foreign language text on GitHub repositories to English with a simple click. Perfect for developers working with international codebases and documentation. Makes global code collaboration seamless and accessible.
 
+## Demo
+
+<video src="https://github.com/user-attachments/assets/3b148c03-3cd9-45fd-95a7-472753b0182a" autoplay loop muted playsinline></video>
+
 ## Features
 
 - 🔍 One-click translation of selected text on GitHub
