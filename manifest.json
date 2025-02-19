@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "GitLingo Translator",
+  "version": "1.0",
+  "description": "Instantly translate foreign language text on GitHub to English using Google's Gemini API",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
